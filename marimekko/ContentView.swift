@@ -11,11 +11,11 @@ struct ContentView: View {
     var body: some View {
         TabView {
             NavigationView{
-                ExploreView()
-                    .navigationBarTitle("Explore")
+                HomeView()
+                    .navigationBarTitle("Home")
             }
             .tabItem {
-                Label("Explore", systemImage: "star")
+                Label("Home", systemImage: "house")
             }
 
             NavigationView{
@@ -27,11 +27,11 @@ struct ContentView: View {
             }
 
             NavigationView{
-                HomeView()
-                    .navigationBarTitle("Home")
+                ExploreView()
+                    .navigationBarTitle("Explore")
             }
             .tabItem {
-                Label("Home", systemImage: "house")
+                Label("Explore", systemImage: "star")
             }
 
             NavigationView{
@@ -40,14 +40,6 @@ struct ContentView: View {
             }
             .tabItem {
                 Label("mARi", systemImage: "arkit")
-            }
-
-            NavigationView{
-                PlaceholderView()
-                    .navigationBarTitle("Add post", displayMode: .inline)
-            }
-            .tabItem {
-                Label("Post", systemImage: "plus.app.fill")
             }
         }
     }

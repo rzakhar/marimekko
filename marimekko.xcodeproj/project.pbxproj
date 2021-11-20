@@ -71,10 +71,10 @@
 			children = (
 				66EF854B27482B0800CFCF8F /* marimekkoApp.swift */,
 				66EF854F27482B0800CFCF8F /* ContentView.swift */,
-				66EF85902749052300CFCF8F /* ExploreView.swift */,
-				66EF855E2748356C00CFCF8F /* RewardsView.swift */,
-				66EF85632748470D00CFCF8F /* MariView.swift */,
 				66EF859227491B0300CFCF8F /* HomeView.swift */,
+				66EF855E2748356C00CFCF8F /* RewardsView.swift */,
+				66EF85902749052300CFCF8F /* ExploreView.swift */,
+				66EF85632748470D00CFCF8F /* MariView.swift */,
 				66EF855C27482B8A00CFCF8F /* PlaceholderView.swift */,
 				66EF855127482B0A00CFCF8F /* Assets.xcassets */,
 				66EF855627482B0A00CFCF8F /* Info.plist */,
