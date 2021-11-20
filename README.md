@@ -1,6 +1,6 @@
 #  marimekko challenge
 
-<img src="demo.gif" alt="Demonstration" width="375"/>
+<img src="demo.gif" alt="Demonstration" width="300"/>
 
 ![Screenshots](screenshots.png)
 
