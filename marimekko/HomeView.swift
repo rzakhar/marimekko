@@ -21,7 +21,7 @@ struct HomeView: View {
                 Divider()
                 PostView(name: "Tarha mekko",
                          imageName: "Tarha",
-                         patternIndex: 3,
+                         patternIndex: 2,
                          year: 1981,
                          size: "M",
                          style: "Vintage",
@@ -29,7 +29,7 @@ struct HomeView: View {
                 Divider()
                 PostView(name: "Pivo mekko",
                          imageName: "Pivo",
-                         patternIndex: 5,
+                         patternIndex: 4,
                          year: 1995,
                          size: "S",
                          style: "Vintage",
@@ -114,6 +114,7 @@ struct ActionButton: View {
             Image(systemName: imageName)
                 .resizable()
                 .frame(width: 30, height: 27)
+                .foregroundColor(.white)
         }
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		669251212749652700668E68 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669251202749652700668E68 /* SplashView.swift */; };
 		66EF854C27482B0800CFCF8F /* marimekkoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF854B27482B0800CFCF8F /* marimekkoApp.swift */; };
 		66EF855027482B0800CFCF8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF854F27482B0800CFCF8F /* ContentView.swift */; };
 		66EF855227482B0A00CFCF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66EF855127482B0A00CFCF8F /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		669251202749652700668E68 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		66EF854827482B0800CFCF8F /* marimekko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marimekko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EF854B27482B0800CFCF8F /* marimekkoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marimekkoApp.swift; sourceTree = "<group>"; };
 		66EF854F27482B0800CFCF8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				66EF855627482B0A00CFCF8F /* Info.plist */,
 				66EF855327482B0A00CFCF8F /* Preview Content */,
 				66EF859427492BB300CFCF8F /* Utilities.swift */,
+				669251202749652700668E68 /* SplashView.swift */,
 			);
 			path = marimekko;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				66EF85912749052300CFCF8F /* ExploreView.swift in Sources */,
 				66EF859527492BB300CFCF8F /* Utilities.swift in Sources */,
 				66EF855F2748356C00CFCF8F /* RewardsView.swift in Sources */,
+				669251212749652700668E68 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
