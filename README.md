@@ -1,5 +1,6 @@
 #  marimekko challenge
 
+![Demonstration](demo.gif)
 ![Screenshots](screenshots.png)
 
 ## Features
