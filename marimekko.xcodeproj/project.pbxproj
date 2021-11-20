@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66EF854C27482B0800CFCF8F /* marimekkoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF854B27482B0800CFCF8F /* marimekkoApp.swift */; };
+		66EF855027482B0800CFCF8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF854F27482B0800CFCF8F /* ContentView.swift */; };
+		66EF855227482B0A00CFCF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66EF855127482B0A00CFCF8F /* Assets.xcassets */; };
+		66EF855527482B0A00CFCF8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66EF855427482B0A00CFCF8F /* Preview Assets.xcassets */; };
+		66EF855D27482B8A00CFCF8F /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF855C27482B8A00CFCF8F /* PlaceholderView.swift */; };
+		66EF855F2748356C00CFCF8F /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF855E2748356C00CFCF8F /* RewardsView.swift */; };
+		66EF85642748470D00CFCF8F /* MariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF85632748470D00CFCF8F /* MariView.swift */; };
+		66EF858F2748F84100CFCF8F /* kukat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 66EF858E2748F84100CFCF8F /* kukat.mp4 */; };
+		66EF85912749052300CFCF8F /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF85902749052300CFCF8F /* ExploreView.swift */; };
+		66EF859327491B0300CFCF8F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF859227491B0300CFCF8F /* HomeView.swift */; };
+		66EF859527492BB300CFCF8F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF859427492BB300CFCF8F /* Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66EF854827482B0800CFCF8F /* marimekko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marimekko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66EF854B27482B0800CFCF8F /* marimekkoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marimekkoApp.swift; sourceTree = "<group>"; };
+		66EF854F27482B0800CFCF8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66EF855127482B0A00CFCF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66EF855427482B0A00CFCF8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66EF855627482B0A00CFCF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66EF855C27482B8A00CFCF8F /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
+		66EF855E2748356C00CFCF8F /* RewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
+		66EF85632748470D00CFCF8F /* MariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MariView.swift; sourceTree = "<group>"; };
+		66EF858E2748F84100CFCF8F /* kukat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = kukat.mp4; sourceTree = "<group>"; };
+		66EF85902749052300CFCF8F /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		66EF859227491B0300CFCF8F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		66EF859427492BB300CFCF8F /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66EF854527482B0800CFCF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66EF853F27482B0800CFCF8F = {
+			isa = PBXGroup;
+			children = (
+				66EF858E2748F84100CFCF8F /* kukat.mp4 */,
+				66EF854A27482B0800CFCF8F /* marimekko */,
+				66EF854927482B0800CFCF8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66EF854927482B0800CFCF8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66EF854827482B0800CFCF8F /* marimekko.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66EF854A27482B0800CFCF8F /* marimekko */ = {
+			isa = PBXGroup;
+			children = (
+				66EF854B27482B0800CFCF8F /* marimekkoApp.swift */,
+				66EF854F27482B0800CFCF8F /* ContentView.swift */,
+				66EF85902749052300CFCF8F /* ExploreView.swift */,
+				66EF855E2748356C00CFCF8F /* RewardsView.swift */,
+				66EF85632748470D00CFCF8F /* MariView.swift */,
+				66EF859227491B0300CFCF8F /* HomeView.swift */,
+				66EF855C27482B8A00CFCF8F /* PlaceholderView.swift */,
+				66EF855127482B0A00CFCF8F /* Assets.xcassets */,
+				66EF855627482B0A00CFCF8F /* Info.plist */,
+				66EF855327482B0A00CFCF8F /* Preview Content */,
+				66EF859427492BB300CFCF8F /* Utilities.swift */,
+			);
+			path = marimekko;
+			sourceTree = "<group>";
+		};
+		66EF855327482B0A00CFCF8F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66EF855427482B0A00CFCF8F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66EF854727482B0800CFCF8F /* marimekko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66EF855927482B0A00CFCF8F /* Build configuration list for PBXNativeTarget "marimekko" */;
+			buildPhases = (
+				66EF854427482B0800CFCF8F /* Sources */,
+				66EF854527482B0800CFCF8F /* Frameworks */,
+				66EF854627482B0800CFCF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = marimekko;
+			packageProductDependencies = (
+			);
+			productName = marimekko;
+			productReference = 66EF854827482B0800CFCF8F /* marimekko.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66EF854027482B0800CFCF8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					66EF854727482B0800CFCF8F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 66EF854327482B0800CFCF8F /* Build configuration list for PBXProject "marimekko" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66EF853F27482B0800CFCF8F;
+			packageReferences = (
+			);
+			productRefGroup = 66EF854927482B0800CFCF8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66EF854727482B0800CFCF8F /* marimekko */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66EF854627482B0800CFCF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EF855527482B0A00CFCF8F /* Preview Assets.xcassets in Resources */,
+				66EF855227482B0A00CFCF8F /* Assets.xcassets in Resources */,
+				66EF858F2748F84100CFCF8F /* kukat.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66EF854427482B0800CFCF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EF859327491B0300CFCF8F /* HomeView.swift in Sources */,
+				66EF854C27482B0800CFCF8F /* marimekkoApp.swift in Sources */,
+				66EF855027482B0800CFCF8F /* ContentView.swift in Sources */,
+				66EF855D27482B8A00CFCF8F /* PlaceholderView.swift in Sources */,
+				66EF85642748470D00CFCF8F /* MariView.swift in Sources */,
+				66EF85912749052300CFCF8F /* ExploreView.swift in Sources */,
+				66EF859527492BB300CFCF8F /* Utilities.swift in Sources */,
+				66EF855F2748356C00CFCF8F /* RewardsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		66EF855727482B0A00CFCF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66EF855827482B0A00CFCF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66EF855A27482B0A00CFCF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"marimekko/Preview Content\"";
+				DEVELOPMENT_TEAM = ZRJ5F4YWW9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = marimekko/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rzakhar.marimekko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66EF855B27482B0A00CFCF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"marimekko/Preview Content\"";
+				DEVELOPMENT_TEAM = ZRJ5F4YWW9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = marimekko/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rzakhar.marimekko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66EF854327482B0800CFCF8F /* Build configuration list for PBXProject "marimekko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66EF855727482B0A00CFCF8F /* Debug */,
+				66EF855827482B0A00CFCF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66EF855927482B0A00CFCF8F /* Build configuration list for PBXNativeTarget "marimekko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66EF855A27482B0A00CFCF8F /* Debug */,
+				66EF855B27482B0A00CFCF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66EF854027482B0800CFCF8F /* Project object */;
+}
