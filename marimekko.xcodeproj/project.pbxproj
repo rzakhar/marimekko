@@ -23,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		669251202749652700668E68 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		6692512227497D4200668E68 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		66EF854827482B0800CFCF8F /* marimekko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marimekko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EF854B27482B0800CFCF8F /* marimekkoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marimekkoApp.swift; sourceTree = "<group>"; };
 		66EF854F27482B0800CFCF8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +53,7 @@
 		66EF853F27482B0800CFCF8F = {
 			isa = PBXGroup;
 			children = (
+				6692512227497D4200668E68 /* README.md */,
 				66EF858E2748F84100CFCF8F /* kukat.mp4 */,
 				66EF854A27482B0800CFCF8F /* marimekko */,
 				66EF854927482B0800CFCF8F /* Products */,
